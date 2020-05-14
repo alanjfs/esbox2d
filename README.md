@@ -11,11 +11,13 @@ R to reset
 D to disable on done
 ```
 
-Enter runs 100 generations of a population of 10 for 200 steps. R uses the current weights to drive the cartpole.
+The `Enter` key runs 100 generations for 200 steps in a population of 10. The `R` key resets the simulation, using the current weights to drive the cartpole.
 
 <br>
 
 ### Build
+
+<img width=500 src=https://user-images.githubusercontent.com/2152766/81909638-ca648200-95c2-11ea-9e72-7c839a69f7ab.gif>
 
 You'll need..
 
