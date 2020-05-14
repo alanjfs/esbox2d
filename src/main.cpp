@@ -485,6 +485,7 @@ void BoxES::run() {
 
         // This should be (N.transpose() * R).transpose()
         // But N is an array rather than a tensor..
+        // https://gist.github.com/Adriel-M/4daabe115982fe1d9159e730ac3f79a5#file-cartpole-els-py-L121
         Eigen::Matrix<double, 4, 2> weighted_weights;
         for (int i=0; i < N.size(); i++) {
             N[i] *= R[i];
