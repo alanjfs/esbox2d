@@ -14,9 +14,7 @@ endif()
 include_directories(
     ${CMAKE_SOURCE_DIR}/external/magnum/x64-windows-vs2015-static/${CONFIGURATION}/include
     ${CMAKE_SOURCE_DIR}/external/magnum/x64-windows-vs2015-static/${CONFIGURATION}/include/MagnumExternal/OpenGL
-    ${CMAKE_SOURCE_DIR}/external/entt
-    ${CMAKE_SOURCE_DIR}/External/eigen
-    ${CMAKE_SOURCE_DIR}/external/imgui/x64-windows/include
+    ${CMAKE_SOURCE_DIR}/external/eigen
     ${CMAKE_SOURCE_DIR}/external/box2d/include
 )
 
@@ -88,5 +86,4 @@ target_link_libraries(${PROJECT_NAME}
     MagnumShaders${MAGNUM_LIB_SUFFIX}
     MagnumSceneGraph${MAGNUM_LIB_SUFFIX}
     MagnumTrade${MAGNUM_LIB_SUFFIX}
-    MagnumImGuiIntegration${MAGNUM_LIB_SUFFIX}
 )
