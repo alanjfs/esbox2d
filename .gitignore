@@ -1,0 +1,4 @@
+external
+build
+.vs
+env.bat
